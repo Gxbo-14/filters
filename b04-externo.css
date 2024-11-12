@@ -1,0 +1,113 @@
+body {
+  font-family: Arial;
+  background-color:#0092ca;
+}
+
+.zona-encabezado {
+  width: 85%;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  margin-left: 70px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  background-color: #eeeeee;
+  text-align: center;
+  font-size: 50px;
+}
+
+.zona-cuerpo {
+  width: 85%;
+  color: black;
+  background-color: #a9eee6;
+  margin-top: 0px;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-style: inset;
+  border-color: #393e46;
+}
+
+.servicios {
+  text-align: center;
+  
+}
+
+.zona-premium{
+  color: purple;
+}
+
+.zona-general {
+  color: blue;
+}
+
+.cash { 
+  color: green
+}
+
+p.catalogo {
+  font-size: 20pt;
+}
+
+h2 {
+  font-size: 24pt;
+  margin-left: 10px;
+}
+
+a:link.zona-encabezado {
+  color: blue;
+  opacity: 1;
+}
+
+a:visited.zona-encabezado {
+  color: black;
+  opacity: 0.5;
+}
+
+a:hover.zona-encabezado, a:active.zona-encabezado {
+  color: aquamarine;
+  opacity: 0.8;
+}
+
+a.zona-encabezado {
+  font-size: 30pt;
+  margin-left: 15px;
+}
+
+img.zona-encabezado {
+  float: right;
+  width: 425px;
+  margin-right: 100px;
+  border-radius: 5px;
+}
+
+.zona-final {
+  width: 85%;
+  margin-left: 70px;
+  color: white;
+  background-color: #393e46;
+}
+
+img.zona-final {
+  width: 50px;
+}
+
+img.catalogo-1 {
+  width: 200px;
+  height: 300px;
+  border-radius: 5%;
+  border-style: solid;
+  border-color: gray
+}
+
+img.servicio{
+  border-radius: 5%;
+  border-style: solid;
+  border-color: gray;
+  width: 400px;
+  height: 300px;
+}
+
+h2.costos-productos {
+  text-align: center;
+}
